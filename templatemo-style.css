@@ -478,8 +478,6 @@ float: left;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  filter: blur(.2px); /* Adjust blur strength here */
-  transform: scale(1.1); /* Prevent edges from showing */
   z-index: -2;
 }
 
