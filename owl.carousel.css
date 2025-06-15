@@ -176,8 +176,8 @@
 .owl-carousel .owl-stage:after,
 .owl-carousel .owl-stage-outer {
     cursor: default !important;
-    -ms-touch-action: none !important;
-    touch-action: none !important;
+    -ms-touch-action: pan-y !important;  /* Allow vertical scrolling */
+    touch-action: pan-y !important;      /* Allow vertical scrolling */
     -webkit-user-select: none !important;
     -moz-user-select: none !important;
     -ms-user-select: none !important;
