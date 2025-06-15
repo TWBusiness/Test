@@ -462,6 +462,10 @@ float: left;
   overflow: hidden;
   padding: 2rem;
   border-radius: 10px;
+  background-image: url(Service-BG.JPG);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   color: #ffffff;
   z-index: 0;
 }
@@ -474,10 +478,6 @@ float: left;
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url(Service-BG.JPG);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
   z-index: -2;
 }
 
