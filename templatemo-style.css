@@ -8,7 +8,6 @@
     font-family: 'Montserrat', sans-serif;
     overflow-x: hidden;
   }
-
 #Logo {
     float: left;
     margin: 0 15px 0 0;
@@ -27,8 +26,6 @@
     height: 40px;
     line-height: 20px;
     padding: 10px 15px;
-    display: flex;
-    align-items: center;
 }
 
 .navbar-nav > li > a {
@@ -37,14 +34,20 @@
     line-height: 20px;
 }
 
-.container {
-    display: flex;
-    align-items: center;
+.navbar-collapse {
+    padding-right: 0;
 }
 
-.navbar-header {
-    display: flex;
-    align-items: center;
+.navbar-nav-first {
+    margin-left: 20px;
+}
+
+.navbar-right {
+    margin-right: 0;
+}
+
+.section-btn {
+    padding: 5px 15px;
 }
 
 @media screen and (max-width: 768px) {
@@ -56,14 +59,44 @@
     }
 
     .navbar-brand {
-        display: inline-flex;
-        align-items: center;
+        padding: 10px 15px;
+    }
+    
+    .navbar-collapse {
+        background: white;
+        margin-top: 0;
     }
 }
 
 @media screen and (max-width: 480px) {
     #Logo {
         width: 10%;
+    }
+}
+
+/* Add this to your existing CSS */
+.slider {
+    padding-top: 60px; /* Adjust this value based on your navbar height */
+}
+
+.caption {
+    margin-top: 20px; /* Additional spacing if needed */
+}
+
+.service {
+    position: relative;
+    z-index: 1; /* Ensure content stays above background */
+}
+
+/* If you're using owl-carousel, you might also need */
+.owl-carousel {
+    padding-top: 20px;
+}
+
+/* For mobile responsiveness */
+@media screen and (max-width: 768px) {
+    .slider {
+        padding-top: 50px; /* Slightly less padding on mobile */
     }
 }
 
