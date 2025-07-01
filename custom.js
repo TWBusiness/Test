@@ -9,7 +9,7 @@
 
 
     // MENU
-    $('.navbar-collapse a').on('click',function(){
+    $('.navbar-collapse a:not(.dropdown-toggle)').on('click',function(){
       $(".navbar-collapse").collapse('hide');
     });
 
@@ -114,4 +114,6 @@
     // WOW ANIMATION
     new WOW({ mobile: false }).init();
 
+
+    
 })(jQuery);
