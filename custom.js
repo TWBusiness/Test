@@ -29,7 +29,7 @@
       loop:true,
       autoplayHoverPause: false,
       autoplay: true,
-      smartSpeed: 1000,
+      autoplayTimeout:3000
     })
 
 
